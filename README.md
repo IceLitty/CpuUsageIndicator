@@ -16,3 +16,13 @@ Note:<br/>
 
 ![screenshot](https://github.com/krasa/CpuUsageIndicator/blob/master/dumps.png)
 
+
+This modify version changed this:
+- Move indicator after "FatalError", before "Memory" widget (see LangExtensions.xml statusBarWidgetFactory tag).
+- Modify color scheme same as Memory widget (use it named color make nicely in any theme).
+- Use TextPanel or not JButton to use normal font size of cpu usage percent.
+- Remove border.
+
+![screenshot](https://github.com/IceLitty/CpuUsageIndicator/blob/master/cpuUsageImgModifySample1.jpg)
+
+![screenshot](https://github.com/IceLitty/CpuUsageIndicator/blob/master/cpuUsageImgModifySample2.jpg)
