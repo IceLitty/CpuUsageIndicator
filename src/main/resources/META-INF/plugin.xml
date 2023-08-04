@@ -26,7 +26,7 @@
 	<extensions defaultExtensionNs="com.intellij">
 		<applicationConfigurable id="PerformanceWatcherSettings" displayName="Performance Watcher"
 								 instance="krasa.cpu.diagnostic.PerformanceWatcherConfigurable"/>
-		<statusBarWidgetFactory id="KrasaCpu" implementation="krasa.cpu.CpuWidgetFactory"
+		<statusBarWidgetFactory id="krasaCpuUsageWidget" implementation="krasa.cpu.CpuWidgetFactory"
 								order="after FatalError"/>
 	</extensions>
 
