@@ -1,7 +1,6 @@
-<idea-plugin version="2">
+<idea-plugin>
 	<id>krasa.CpuUsageIndicator</id>
 	<name>CPU Usage Indicator</name>
-	<version>1.16-IJ2023-Modify</version>
 	<vendor url="https://github.com/krasa/CpuUsageIndicator" email="vojta.krasa@gmail.com">Vojtech
 		Krasa
 	</vendor>
@@ -15,22 +14,10 @@
       <br/>
       Note:<br/>
       -it is painted in a background thread, not EDT, so it will update even when the GUI is stuck<br/>
-      -getting the process usage is very expensive operation :(<br/>
+      -getting the process usage is a very expensive operation :(<br/>
     ]]></description>
 
-	<change-notes><![CDATA[
-		This modify version changed this:
-		- Move indicator after "FatalError", before "Memory" widget (see LangExtensions.xml statusBarWidgetFactory tag).
-		- Modify color scheme same as Memory widget (use it named color make nicely in any theme).
-		- Use TextPanel or not JButton to use normal font size of cpu usage percent.
-		- Remove border.
 
-		Compatibility with 2023.2
-    ]]>
-	</change-notes>
-
-	<!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-	<idea-version since-build="231.8109.175"/>
 
 	<!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
 		 on how to target different products -->
